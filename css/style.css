@@ -12,10 +12,13 @@ body{
 .wrapper{
   width: 960px;
   margin: 0 auto;
+  border: 1px solid black;
+  padding: 20px;
 }
 
 table,
 tr,
+th,
 td {
     border: 1;
     border-collapse: collapse;
@@ -23,4 +26,18 @@ td {
     padding: 0;
     margin: 0 auto;
     font-family: Arial;
+    text-align: center;
+    /* table-layout: fixed; */
+}
+
+/* .title h3{
+  margin: 0;
+} */
+
+.first tr th,
+.first tr td,
+.second tr th,
+.second tr td{
+  width: auto;
+  padding: 10px;
 }
