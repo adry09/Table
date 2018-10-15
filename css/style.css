@@ -9,7 +9,7 @@ body {
 }
 
 .wrapper {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
   border: 1px solid black;
   padding: 20px;
@@ -26,6 +26,7 @@ td {
   padding: 0;
   margin: 0 auto;
   text-align: center;
+
   /* table-layout: fixed; */
 }
 
@@ -74,4 +75,5 @@ td:first-of-type a:hover {
 tr td {
   height: 40px;
   font-size: 15px;
+  padding-right: 5px;
 }
