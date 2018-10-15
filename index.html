@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" http-equiv="content-type"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" http-equiv="content-type" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Table</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -13,121 +13,131 @@
   <div class="wrapper">
     <div class="main">
 
-      <div class="title">
-        <h3>My pre order</h3>
-      </div>
-<div style="overflow-x:auto;">
-      <table class="one" border="1" >
-        <tr class="first-row">
-          <th>Order Number</th>
-          <th>Last modification Date</th>
-          <th>Status</th>
-          <th>ETA</th>
-          <th>Wished date</td>
-          <th>Total</td>
-          <th>Download</td>
-        </tr>
-        <tr>
-          <td><a href="##">DK-0005478</a></td>
-          <td>27/09/2018</td>
-          <td>Pending Validation</td>
-          <td>11/09/2018</td>
-          <td>-</td>
-          <td>$60</td>
-          <td><img src="./images/pdf-icon.png"></td>
-        </tr>
-        <tr>
-          <td><a href="##">DK-0005477</a></td>
-          <td>26/09/2018</td>
-          <td>Pending Validation</td>
-          <td>11/09/2018</td>
-          <td>-</td>
-          <td>$9600000</td>
-          <td><img src="./images/pdf-icon.png"></td>
-        </tr>
-        <tr>
-          <td><a href="##">DK-0005476</a></td>
-          <td>28/09/2018</td>
-          <td>Pending Validation</td>
-          <td>11/09/2018</td>
-          <td>-</td>
-          <td>$1960</td>
-          <td><img src="./images/pdf-icon.png"></td>
-        </tr>
-        <tr>
-          <td><a href="##">DK-0005475</a></td>
-          <td>25/09/2018</td>
-          <td>Pending Validation</td>
-          <td>11/09/2018</td>
-          <td>-</td>
-          <td>$10960</td>
-          <td><img src="./images/pdf-icon.png"></td>
-        </tr>
+      <!-- Responsive with Scroll -->
+      <!-- <div style="overflow-x:auto;"> -->
+      <table class="one" border="0">
+        <div class="title">
+          <h3>My pre order</h3>
+        </div>
+        <thead>
+          <tr class="first-row">
+            <th scope="col">Order Number</th>
+            <th scope="col">Last modification Date</th>
+            <th scope="col">Status</th>
+            <th scope="col">ETA</th>
+            <th scope="col">Wished date</td>
+            <th scope="col">Total</td>
+            <th scope="col">Download</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row" data-label="Order Number"><a href="##">DK-0005478</a></td>
+            <td data-label="Last modification Date">27/09/2018</td>
+            <td data-label="Status">Pending Validation</td>
+            <td data-label="ETA">11/09/2018</td>
+            <td data-label="Wished date">-</td>
+            <td data-label="Total">$60</td>
+            <td data-label="Download"><img src="./images/pdf-icon.png"></td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="Order Number"><a href="##">DK-0005477</a></td>
+            <td data-label="Last modification Date">26/09/2018</td>
+            <td data-label="Status">Pending Validation</td>
+            <td data-label="ETA">11/09/2018</td>
+            <td data-label="Wished date">-</td>
+            <td data-label="Total">$9600000</td>
+            <td data-label="Download"><img src="./images/pdf-icon.png"></td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="Order Number"><a href="##">DK-0005476</a></td>
+            <td data-label="Last modification Date">28/09/2018</td>
+            <td data-label="Status">Pending Validation</td>
+            <td data-label="ETA">11/09/2018</td>
+            <td data-label="Wished date">-</td>
+            <td data-label="Total">$1960</td>
+            <td data-label="Download"><img src="./images/pdf-icon.png"></td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="Order Number"><a href="##">DK-0005475</a></td>
+            <td data-label="Last modification Date">25/09/2018</td>
+            <td data-label="Status">Pending Validation</td>
+            <td data-label="ETA">11/09/2018</td>
+            <td data-label="Wished date">-</td>
+            <td data-label="Total">$10960</td>
+            <td data-label="Download"><img src="./images/pdf-icon.png"></td>
+          </tr>
+        <tbody>
       </table>
-    </div>
+      <!-- </div> -->
 
-      <div class="title">
-        <h3>Tracking of confirmed orders</h3>
-      </div>
-<div style="overflow-x:auto;">
-      <table class="two" border="1">
-        <tr class = "first-row">
-          <th>ID order</th>
-          <th>PO Number</th>
-          <th>Order date</th>
-          <th>Status</th>
-          <th>ETA</th>
-          <th>Tracking</th>
-          <th>Total</th>
-          <th>Ask us</th>
-          <th>Download</th>
-        </tr>
-        <tr>
-          <td><a href="##">DK-0005475</a></td>
-          <td>1233456789</td>
-          <td>06/11/2017</td>
-          <td>In transit</td>
-          <td>11/12/2017</td>
-          <td><a href="#2"><img src="./images/shape.png"></a></td>
-          <td>$1960</td>
-          <td><img src="./images/3-layers.png"></td>
-          <td><img src="./images/pdf-icon.png"></td>
-        </tr>
-        <tr>
-          <td><a href="##">DK-0005475</a></td>
-          <td>12345678900</td>
-          <td>06/11/2017</td>
-          <td>Under process</td>
-          <td>11/12/2017</td>
-          <td><a href="#1"><img src="./images/shape.png"></a></td>
-          <td>$1960</td>
-          <td><img src="./images/3-layers.png"></td>
-          <td><img src="./images/pdf-icon.png"></td>
-        </tr>
-        <tr>
-          <td><a href="##">DK-0005475</a></td>
-          <td>1233456789</td>
-          <td>06/11/2017</td>
-          <td>Under process</td>
-          <td>11/12/2017</td>
-          <td><a href="#4"><img src="./images/shape.png"></a></td>
-          <td>$1960</td>
-          <td><img src="./images/3-layers.png"></td>
-          <td><img src="./images/pdf-icon.png"></td>
-        </tr>
-        <tr>
-          <td><a href="##">DK-0005475</a></td>
-          <td>1233456789</td>
-          <td>06/11/2017</td>
-          <td>Under process</td>
-          <td>11/12/2017</td>
-          <td><img src="./images/shape.png"></td>
-          <td>$1960000</td>
-          <td><img src="./images/3-layers.png"></td>
-          <td><img src="./images/pdf-icon.png"></td>
-        </tr>
+      <!-- Responsive with Scroll -->
+      <!-- <div style="overflow-x:auto;"> -->
+      <table class="two" border="0">
+        <div class="title">
+          <h3>Tracking of confirmed orders</h3>
+        </div>
+        <thead>
+          <tr class="first-row">
+            <th scope="col">ID order</th>
+            <th scope="col">PO Number</th>
+            <th scope="col">Order date</th>
+            <th scope="col">Status</th>
+            <th scope="col">ETA</th>
+            <th scope="col">Tracking</th>
+            <th scope="col">Total</th>
+            <th scope="col">Ask us</th>
+            <th scope="col">Download</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="ID order"><a href="##">DK-0005475</a></td>
+            <td data-label="PO Number">1233456789</td>
+            <td data-label="Order date">06/11/2017</td>
+            <td data-label="Status">In transit</td>
+            <td data-label="ETA">11/12/2017</td>
+            <td data-label="Tracking"><a href="#2"><img src="./images/shape.png"></a></td>
+            <td data-label="Total">$1960</td>
+            <td data-label="Ask us"><img src="./images/3-layers.png"></td>
+            <td data-label="Download"><img src="./images/pdf-icon.png"></td>
+          </tr>
+          <tr >
+            <td  scope="row" data-label="ID order"><a href="##">DK-0005475</a></td>
+            <td data-label="PO Number">12345678900</td>
+            <td data-label="Order date">06/11/2017</td>
+            <td data-label="Status">Under process</td>
+            <td data-label="ETA">11/12/2017</td>
+            <td data-label="Tracking"><a href="#1"><img src="./images/shape.png"></a></td>
+            <td data-label="Total">$1960</td>
+            <td data-label="Ask us"><img src="./images/3-layers.png"></td>
+            <td data-label="Download"><img src="./images/pdf-icon.png"></td>
+          </tr>
+          <tr>
+            <td  scope="row" data-label="ID order"><a href="##">DK-0005475</a></td>
+            <td data-label="PO Number">1233456789</td>
+            <td data-label="Order date">06/11/2017</td>
+            <td data-label="Status">Under process</td>
+            <td data-label="ETA">11/12/2017</td>
+            <td data-label="Tracking"><a href="#4"><img src="./images/shape.png"></a></td>
+            <td data-label="Total">$1960</td>
+            <td data-label="Ask us"><img src="./images/3-layers.png"></td>
+            <td data-label="Download"><img src="./images/pdf-icon.png"></td>
+          </tr>
+          <tr>
+            <td  scope="row" data-label="ID order"><a href="##">DK-0005475</a></td>
+            <td data-label="PO Number">1233456789</td>
+            <td data-label="Order date">06/11/2017</td>
+            <td data-label="Status">Under process</td>
+            <td data-label="ETA">11/12/2017</td>
+            <td data-label="Tracking"><img src="./images/shape.png"></td>
+            <td data-label="Total">$1960000</td>
+            <td data-label="Ask us"><img src="./images/3-layers.png"></td>
+            <td data-label="Download"><img src="./images/pdf-icon.png"></td>
+          </tr>
+        </tbody>
       </table>
-      </div>
+      <!-- </div> -->
     </div>
   </div>
 </body>
